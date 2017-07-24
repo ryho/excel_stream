@@ -1,6 +1,6 @@
 # excel_stream
 The purpose of the StreamFile library is to allow streamed writing of XLSX files.
-It relies heavily on the XLSX library (github.com/tealeg/xlsx).
+It relies heavily on the [XLSX](github.com/tealeg/xlsx) library.
 Directions:
 1. Create a StreamFileBuilder with NewStreamFileBuilder() or NewStreamFileBuilderForPath().
 2. Add the sheets and their first row of data by calling AddSheet().
